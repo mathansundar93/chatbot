@@ -23,8 +23,8 @@ const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
 const configuration = new Configuration({
-  organization: "org-0NeeYIgeiFSn38xI794x09Di",
-  apiKey: "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",
+  organization: "",
+  apiKey: "",
 });
 
 const openai = new OpenAIApi(configuration);
